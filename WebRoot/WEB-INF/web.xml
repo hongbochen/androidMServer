@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Home</servlet-name>
+    <servlet-class>com.sdu.servlets.Home</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AppDetail</servlet-name>
+    <servlet-class>com.sdu.servlets.AppDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Sort</servlet-name>
+    <servlet-class>com.sdu.servlets.Sort</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TypeList</servlet-name>
+    <servlet-class>com.sdu.servlets.TypeList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Hot</servlet-name>
+    <servlet-class>com.sdu.servlets.Hot</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HotList</servlet-name>
+    <servlet-class>com.sdu.servlets.HotList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RecList</servlet-name>
+    <servlet-class>com.sdu.servlets.RecList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Theme</servlet-name>
+    <servlet-class>com.sdu.servlets.Theme</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ThemeList</servlet-name>
+    <servlet-class>com.sdu.servlets.ThemeList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Search</servlet-name>
+    <servlet-class>com.sdu.servlets.Search</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Update</servlet-name>
+    <servlet-class>com.sdu.servlets.Update</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FeedBack</servlet-name>
+    <servlet-class>com.sdu.servlets.FeedBack</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Home</servlet-name>
+    <url-pattern>/servlet/Home</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AppDetail</servlet-name>
+    <url-pattern>/servlet/AppDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sort</servlet-name>
+    <url-pattern>/servlet/Sort</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TypeList</servlet-name>
+    <url-pattern>/servlet/TypeList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Hot</servlet-name>
+    <url-pattern>/servlet/Hot</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HotList</servlet-name>
+    <url-pattern>/servlet/HotList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RecList</servlet-name>
+    <url-pattern>/servlet/RecList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Theme</servlet-name>
+    <url-pattern>/servlet/Theme</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ThemeList</servlet-name>
+    <url-pattern>/servlet/ThemeList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Search</servlet-name>
+    <url-pattern>/servlet/Search</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Update</servlet-name>
+    <url-pattern>/servlet/Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FeedBack</servlet-name>
+    <url-pattern>/servlet/FeedBack</url-pattern>
+  </servlet-mapping>
+  
+
+
+</web-app>
